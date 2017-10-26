@@ -16,14 +16,4 @@ public class BaseHttpServlet extends HttpServlet {
         return (T) getServletContext().getAttribute(name);
     }
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req,resp);
-
-        HelloWorldGeneratorImpl helloWorldGenerator = getBean(HelloWorldGenerator.COMPONENT_NAME);
-        helloWorldGenerator.sayHello();
-
-        System.out.println(helloWorldGenerator.sayHello());
-    }
-
 }

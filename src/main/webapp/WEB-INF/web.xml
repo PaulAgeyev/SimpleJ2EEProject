@@ -14,7 +14,7 @@
     
     <servlet>
         <servlet-name>newServlet</servlet-name>
-        <servlet-class>com.teaminternational.web.BaseHttpServlet</servlet-class>
+        <servlet-class>com.teaminternational.web.NewServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
