@@ -2,7 +2,7 @@ package com.teaminternational;
 
 public class HelloWorldGeneratorImpl implements HelloWorldGenerator {
 
-    private String hello = "test";
+    private String hello = "Hello visitor";
 
     public String sayHello() {
         return hello;
